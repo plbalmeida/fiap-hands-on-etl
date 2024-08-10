@@ -77,5 +77,5 @@ Para fazer o case dessa parte do hands-on, crie um diretório e crie o notebook 
 
 ```bash
 mkdir notebooks
-echo > etl.ipynb
+echo > notebooks/etl.ipynb
 ```
