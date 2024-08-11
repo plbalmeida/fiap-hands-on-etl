@@ -4,7 +4,7 @@
     * [Autor](autor.md)
     * [Agenda](agenda.md)
 
-## Parte 1: Desenvolvimento de ETL para Construção de Features
+## Parte 1: ETL para engenharia de features
 * [Set up do ambiente para a Parte 1](parte_1/set_up_ambiente.md)
 * [Nivelamento técnico](parte_1/nivelamento_tecnico.md)
 * [Case IPEA](parte_1/case_ipea.md)
@@ -12,7 +12,7 @@
 * [Arquitetura da Solução](parte_1/arquitetura_solucao.md)
 * [Implementação de ETL com PySpark](parte_1/etl_pyspark.md)
 
-## Parte 2: Subindo o Processo de ETL na AWS
+## Parte 2: ETL na AWS
 * [Set up do ambiente para a Parte 2](parte_2/set_up_ambiente.md)
 * [Buckets do S3](parte_2/buckets_s3.md)
 * [AWS Glue](parte_2/aws_glue.md)

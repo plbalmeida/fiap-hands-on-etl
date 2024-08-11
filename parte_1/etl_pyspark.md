@@ -17,7 +17,13 @@ A engenharia de features melhora a capacidade do modelo de capturar padrões tem
 
 ## Implementação do ETL com PySpark
 
-A seguir serão obtidas as features para a tabela demandada no levantamento de requisitos junto dos stakeholders do projeto.
+A seguir serão obtidas as features para a tabela demandada no levantamento de requisitos junto dos stakeholders do projeto usando o PySpark.
+
+PySpark é uma interface para Apache Spark em Python. Spark é uma poderosa ferramenta de computação distribuída usada para processar grandes volumes de dados de maneira eficiente, especialmente em clusters de computadores.
+
+PySpark inclui várias bibliotecas que facilitam essas operações, no presente projeto utilizaremos o `DataFrame` do PySpark, que similar aos DataFrames do Pandas, é uma abstração para dados estruturados, mas distribuída e otimizada para grandes volumes de dados.
+
+Link da documentação do PySpark: [https://spark.apache.org/docs/3.1.1/api/python/index.html](https://spark.apache.org/docs/3.1.1/api/python/index.html)
 
 ### 1. Etapa de "Extract"
 
