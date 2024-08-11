@@ -61,6 +61,7 @@ echo > requirements.txt
 Colocar as seguintes bibliotecas do python no arquivo.
 
 ```txt
+matplotlib
 pandas
 pyspark
 ```
