@@ -62,3 +62,5 @@ Ao utilizar o draw.io para documentar a arquitetura da solução, a equipe pode 
 ## Conclusão
 
 O desenho da arquitetura da solução, aliado ao uso de ferramentas como o draw.io, é fundamental para garantir que o desenvolvimento do processo de ETL seja eficiente, escalável e alinhado com os requisitos de negócio. Com uma arquitetura bem definida, é possível mitigar riscos, otimizar recursos e facilitar a manutenção contínua da solução.
+
+O desenho da arquitetura da parte 1 ainda é preliminar, na parte 2 será elaborado um desenho mais detalhado sobre a arquitetura com os recursos da AWS.

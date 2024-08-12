@@ -7,8 +7,8 @@
 ## Parte 1: ETL para engenharia de features
 * [Set up do ambiente para a Parte 1](parte_1/set_up_ambiente.md)
 * [Nivelamento técnico](parte_1/nivelamento_tecnico.md)
-* [Case IPEA](parte_1/case_ipea.md)
 * [Requisitos para desenvolvimento do ETL](parte_1/requisitos_do_etl.md)
+* [Dados do IPEA](parte_1/dados_ipea.md)
 * [Arquitetura da Solução](parte_1/arquitetura_solucao.md)
 * [Implementação de ETL com PySpark](parte_1/etl_pyspark.md)
 

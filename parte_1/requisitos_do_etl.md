@@ -2,15 +2,27 @@
 
 ## Desenvolvimento do Processo de ETL no Contexto de Engenharia de Machine Learning
 
-O desenvolvimento de um processo de ETL (Extract, Transform, Load) no contexto de Engenharia de Machine Learning envolve uma série de etapas que começam com o levantamento de requisitos junto aos stakeholders, como Cientistas de Dados, pessoas de negócios e outros profissionais relevantes. Este levantamento é essencial para garantir que os dados coletados, transformados e carregados atendam às necessidades específicas dos modelos de Machine Learning e dos objetivos de negócio.
+O desenvolvimento de um processo de ETL (Extract, Transform, Load) no contexto de Engenharia de Machine Learning deve ser feito a luz da cultura MLOps, isso envolve uma série de etapas que começam com o levantamento de requisitos junto aos stakeholders, como Cientistas de Dados, pessoas de negócios e outros profissionais relevantes. Este levantamento é essencial para garantir que os dados coletados, transformados e carregados atendam às necessidades específicas dos modelos de Machine Learning e dos objetivos de negócio.
+
+> **MLOps** é uma cultura e prática de ML que unifica o desenvolvimento de aplicações de ML (Dev) com a implantação e operações do sistema de ML (Ops). Envolve um conjunto de práticas úteis para automatizar e padronizar processos em todo o ciclo de vida de ML. Seu objetivo é acelerar a entrega de sistemas de ML com qualidade. É composta por três fases ou pilares, que são: **Design**, **Desevolvimento** e **Operações**. 
+
+<div align="center">
+  <figure>
+    <img src="mlops.jpg" alt="Diagrama da MLOps">
+    <figcaption>
+      Fonte: https://ml-ops.org/
+    </figcaption>
+  </figure>
+</div>
 
 ### Levantamento de Requisitos com Stakeholders
 
-O processo de levantamento de requisitos é uma fase crítica em qualquer projeto de ETL. Nesse contexto, é fundamental entender as expectativas e necessidades dos Cientistas de Dados, que utilizarão os dados transformados para criar modelos preditivos, bem como das pessoas de negócios, que podem estar interessadas em como esses modelos impactarão as decisões estratégicas da empresa.
+O processo de levantamento de requisitos é uma fase crítica em qualquer projeto. No contexto do presente hands-on, é fundamental começar compreendendo o problema de negócio que se deseja resolver. Esse entendimento orientará todo o desenvolvimento do modelo de Machine Learning e o processo de ETL necessário.
 
-Durante as reuniões com esses stakeholders, é importante esclarecer:
+Durante as reuniões com os stakeholders, é importante esclarecer:
 
-- **Objetivos do Modelo de ML**: Qual é o objetivo principal do modelo que será treinado? Quais tipos de previsões ou insights são esperados?
+- **Problema de Negócio**: Qual é o problema ou a oportunidade que o projeto busca endereçar? Como o sucesso será medido? Quais são as implicações para o negócio?
+- **Objetivos do Modelo de ML**: Com base no problema de negócio, qual é o objetivo principal do modelo que será treinado? Quais tipos de previsões ou insights são esperados?
 - **Fonte dos Dados**: De onde vêm os dados? Quais fontes de dados precisam ser integradas?
 - **Formato e Estrutura dos Dados**: Quais são os requisitos de formatação dos dados? Existe alguma estrutura específica necessária para o modelo?
 - **Engenharia de Features**: Quais features precisam ser extraídas ou criadas a partir dos dados brutos? Quais são as variáveis mais relevantes?
@@ -23,7 +35,7 @@ Ao coletar essas informações, é possível definir de forma clara o escopo e o
 
 Com base no levantamento de requisitos, é possível construir um catálogo de dados que descreva em detalhes as necessidades específicas para o processo de ETL.
 
-> No caso específico deste hands-on, vamos supor que o Cientista de Dados do seu time tem como objetivo prever a média mensal do preço do petróleo bruto do IPEA. Para isso, os seguintes campos com os respectivos tipos foram solicitados. Ainda foi pedido para que os dados do mês vigente não sejam calculados.
+> No caso específico deste hands-on, vamos supor que o Cientista de Dados e outras partes interessadas do seu time tem como objetivo prever a média mensal do preço do petróleo bruto do IPEA, assim como usar essse dado como variáveis preditoras em outros modelos e análises. Para isso, os seguintes campos com os respectivos tipos foram solicitados. Ainda foi pedido para que os dados do mês vigente não sejam calculados.
 
 Dado o levantamento de requisito da tabela final, foi documentado o seguinte dicionário de dados, alinhando os nomes dos campos na tabela, sua descrição e tipagem dos dados. 
 
@@ -57,3 +69,6 @@ Dado o levantamento de requisito da tabela final, foi documentado o seguinte dic
 ## Conclusão
 
 O levantamento de requisitos e a definição clara das variáveis necessárias são etapas fundamentais para o sucesso de qualquer processo de ETL em Engenharia de Machine Learning. Ao criar um catálogo de dados detalhado, garantimos que todos os stakeholders estejam alinhados e que o processo de ETL seja construído para atender às necessidades do projeto, resultando em dados de alta qualidade prontos para alimentar modelos preditivos.
+
+## Referências
+- [https://ml-ops.org/](https://ml-ops.org/)

@@ -10,13 +10,22 @@ ETL é um acrônimo que representa as três etapas principais do processo de int
 - **Transform (Transformar)**: Processamento e limpeza dos dados para que estejam em um formato adequado para análise. Isso pode incluir a normalização, agregação, e engenharia de features.
 - **Load (Carregar)**: Inserção dos dados processados em um sistema de armazenamento centralizado, como um data warehouse, onde podem ser utilizados para treinamento de modelos de ML.
 
+<div align="center">
+  <figure>
+    <img src="etl.png" alt="Diagrama de ETL">
+    <figcaption>
+      Fonte: https://www.informatica.com/resources/articles/what-is-etl.html
+    </figcaption>
+  </figure>
+</div>
+
 ## A Importância do ETL em Machine Learning
 
 Em Machine Learning, o processo de ETL é crucial por várias razões:
 
 - **Qualidade dos Dados**: Dados brutos geralmente contêm ruídos, inconsistências e valores ausentes. O ETL ajuda a limpar e transformar esses dados para garantir que os modelos de ML recebam informações de alta qualidade.
 - **Engenharia de Features**: O ETL permite a criação de features derivadas que são essenciais para melhorar a performance dos modelos de ML. Por exemplo, em dados de séries temporais, o ETL pode ser utilizado para gerar features como médias móveis, desvios padrão, e outras estatísticas relevantes.
-- **Escalabilidade**: Processos de ETL bem projetados podem lidar com grandes volumes de dados e múltiplas fontes de forma eficiente, permitindo que o pipeline de ML seja escalável e flexível.
+- **Fonte Única da Verdade**: O ETL serve como uma ferramenta para consolidar dados de diversas fontes em uma única base coerente e confiável. Isso garante que todos os stakeholders e processos de negócio estejam baseados na mesma versão dos dados, facilitando a consistência e a integridade das análises e decisões.
 
 ## Boas Práticas para Implementação de ETL
 
@@ -40,3 +49,7 @@ Alguns desafios que podem surgir durante a implementação de um processo de ETL
 Compreender o papel do ETL no contexto da Engenharia de Machine Learning é fundamental para construir pipelines de dados robustos e eficientes. Ao seguir boas práticas e estar ciente dos desafios comuns, você estará melhor preparado para implementar processos de ETL que suportem a criação de modelos de ML de alta qualidade.
 
 Nas próximas seções dessa parte, vamos explorar os requisitos para a implementação de um ETL usando PySpark com dados do IPEA, aplicando alguns dos conceitos discutidos aqui.
+
+## Referências
+- [https://www.informatica.com/resources/articles/what-is-etl.html](https://www.informatica.com/resources/articles/what-is-etl.html)
+- [https://www.sas.com/pt_br/insights/data-management/o-que-e-etl.html](https://www.sas.com/pt_br/insights/data-management/o-que-e-etl.html)
