@@ -13,7 +13,7 @@
 * [Implementação de ETL com PySpark](parte_1/etl_pyspark.md)
 
 ## Parte 2: ETL na AWS
-* [Set up do ambiente para a Parte 2](parte_2/set_up_ambiente.md)
+* [Set up e arquitetura para a Parte 2](parte_2/set_up_ambiente.md)
 * [Buckets do S3](parte_2/buckets_s3.md)
 * [AWS Glue](parte_2/aws_glue.md)
 * [Orquestração de ETL com AWS Step Functions](parte_2/step_functions.md)
