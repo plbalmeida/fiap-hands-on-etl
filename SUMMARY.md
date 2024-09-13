@@ -20,9 +20,8 @@
 * [EventBridge para agendamento da execução](parte_2/eventbridge.md)
 
 ## Parte 3: Provisionamento de Recursos da AWS com Terraform
-* [Set up do ambiente para a Parte 3](parte_3/set_up_ambiente.md)
 * [Visão geral sobre Terraform](parte_3/overview_terraform.md)
-* [IaC com Terraform](parte_3/iac_terraform.md)
+* [Set up do ambiente para a Parte 3](parte_3/set_up_ambiente.md)
 * [Provisionamento de recursos AWS](parte_3/provisionamento_recursos.md)
 
 ## Parte 4: Pipeline de CI/CD com GitHub Actions
