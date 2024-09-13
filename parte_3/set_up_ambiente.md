@@ -15,7 +15,7 @@ Aqui é apresentados o passo a passo para configurar o ambiente para usar o Terr
 
    Baixe a versão mais recente do Terraform a partir do site oficial:
 
-   - Página de Downloads do Terraform: https://www.terraform.io/downloads.html
+   - Página de Downloads do Terraform: [https://www.terraform.io/downloads.html](https://www.terraform.io/downloads.html)
 
 2. **Instalação**:
 
@@ -40,7 +40,7 @@ Aqui é apresentados o passo a passo para configurar o ambiente para usar o Terr
 
 Para mais detalhes, consulte a documentação oficial:
 
-- Guia de Instalação do Terraform: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+- Guia de Instalação do Terraform: [https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 ## Configuração das Credenciais da AWS
 
@@ -48,8 +48,8 @@ Para que o Terraform possa interagir com a AWS, é necessário configurar suas c
 
 ### Obter Credenciais da AWS
 
-- Acesse o **Console de Gerenciamento da AWS**: https://console.aws.amazon.com/.
-- Navegue até o **IAM (Gerenciamento de Identidade e Acesso)**: (https://console.aws.amazon.com/iam/).
+- Acesse o **Console de Gerenciamento da AWS**: [https://console.aws.amazon.com/](https://console.aws.amazon.com/).
+- Navegue até o **IAM (Gerenciamento de Identidade e Acesso)**: [https://console.aws.amazon.com/iam/](https://console.aws.amazon.com/iam/).
 - Crie um novo usuário ou utilize um existente com permissões adequadas.
 - Gere uma **Access Key ID** e uma **Secret Access Key**.
 
@@ -73,6 +73,6 @@ export AWS_DEFAULT_REGION="<REGIÃO>"
 
 ## Recursos Adicionais
 
-- Documentação Oficial do Terraform sobre o Provedor AWS: https://registry.terraform.io/providers/hashicorp/aws/latest/docs
-- Guia de Configuração de Credenciais da AWS: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-envvars.html
-- Tutorial de Introdução ao Terraform com AWS: https://learn.hashicorp.com/tutorials/terraform/aws-build
+- Documentação Oficial do Terraform sobre o Provedor AWS: [https://registry.terraform.io/providers/hashicorp/aws/latest/docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- Guia de Configuração de Credenciais da AWS: [https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-envvars.html](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-envvars.html)
+- Tutorial de Introdução ao Terraform com AWS: [https://learn.hashicorp.com/tutorials/terraform/aws-build](https://learn.hashicorp.com/tutorials/terraform/aws-build)

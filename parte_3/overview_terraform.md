@@ -49,6 +49,6 @@ resource "aws_instance" "exemplo" {
 
 ## Recursos Adicionais
 
-- Documentação Oficial do Terraform: https://www.terraform.io/docs
-- Guias e Tutoriais: https://learn.hashicorp.com/terraform
-- Repositório no GitHub: https://github.com/hashicorp/terraform
+- Documentação Oficial do Terraform: [https://www.terraform.io/docs](https://www.terraform.io/docs)
+- Guias e Tutoriais: [https://learn.hashicorp.com/terraform](https://learn.hashicorp.com/terraform)
+- Repositório no GitHub: [https://github.com/hashicorp/terraform](https://github.com/hashicorp/terraform)
