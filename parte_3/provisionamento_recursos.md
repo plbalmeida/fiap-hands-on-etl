@@ -394,3 +394,7 @@ Para destruir os recursos provisionados:
 cd <PATH>
 terraform destroy
 ```
+
+## Repositório da parte 3
+
+O exercício está disponível no seguinte link: https://github.com/plbalmeida/fiap-etl-terraform
